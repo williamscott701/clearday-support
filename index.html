@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Clearday Support</title>
+<style>
+  :root{
+    color-scheme: light dark;
+    --bg:#F5F3EE;
+    --surface:#FFFFFF;
+    --ink:#191C19;
+    --ink-soft:#5C6360;
+    --accent:#2F5D50;
+    --rule:#E2DFD8;
+    --amber:#A8762A;
+    --callout-bg:#EFECE5;
+    --mono-bg:#EFECE5;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#0F120F;
+      --surface:#191D19;
+      --ink:#E9ECE7;
+      --ink-soft:#98A099;
+      --accent:#7FB5A2;
+      --rule:#262B26;
+      --amber:#D6A85C;
+      --callout-bg:#1D221D;
+      --mono-bg:#1D221D;
+    }
+  }
+  *{ box-sizing:border-box; }
+  html{ scroll-behavior:smooth; }
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    line-height:1.65;
+    -webkit-font-smoothing:antialiased;
+  }
+  main{
+    max-width:40em;
+    margin:0 auto;
+    padding:2.75rem 1.5rem 6rem;
+  }
+  h1{
+    font-family:Georgia,"Iowan Old Style","Palatino Linotype",Palatino,serif;
+    font-size:1.9rem;
+    line-height:1.25;
+    margin:0 0 .35rem;
+    color:var(--ink);
+  }
+  h2{
+    font-family:Georgia,"Iowan Old Style","Palatino Linotype",Palatino,serif;
+    font-size:1.3rem;
+    margin:2.4rem 0 .9rem;
+    padding-top:1.5rem;
+    border-top:1px solid var(--rule);
+    color:var(--ink);
+    scroll-margin-top:1rem;
+  }
+  h3{
+    font-size:1.05rem;
+    margin:1.6rem 0 .6rem;
+    color:var(--ink);
+  }
+  p, li{
+    font-size:1rem;
+    color:var(--ink);
+  }
+  p{ margin:0 0 1rem; }
+  .meta{
+    color:var(--ink-soft);
+    font-size:.95rem;
+    margin:0 0 2.25rem;
+  }
+  .lede{
+    color:var(--ink-soft);
+    font-size:1.08rem;
+  }
+  a{ color:var(--accent); }
+  ul, ol{ padding-left:1.3rem; margin:0 0 1rem; }
+  li{ margin-bottom:.5rem; }
+  .callout{
+    background:var(--callout-bg);
+    border-left:4px solid var(--amber);
+    border-radius:10px;
+    padding:1.2rem 1.4rem .2rem;
+    margin:1.75rem 0;
+  }
+  .callout h2, .callout h3{ margin-top:0; border-top:none; padding-top:0; }
+  .toc{
+    background:var(--surface);
+    border:1px solid var(--rule);
+    border-radius:12px;
+    padding:1.1rem 1.4rem;
+    margin:2.25rem 0;
+  }
+  .toc p{
+    margin:0 0 .6rem;
+    font-weight:600;
+    font-size:.8rem;
+    text-transform:uppercase;
+    letter-spacing:.06em;
+    color:var(--ink-soft);
+  }
+  .toc ol{ margin:0; padding-left:1.2rem; columns:1; }
+  .toc li{ margin-bottom:.4rem; font-size:.95rem; }
+  .toc a{ text-decoration:none; }
+  .toc a:hover{ text-decoration:underline; }
+  .placeholder{
+    background:var(--mono-bg);
+    color:var(--amber);
+    font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+    padding:.1em .4em;
+    border-radius:5px;
+    font-size:.9em;
+    white-space:nowrap;
+  }
+  footer{
+    margin-top:3.5rem;
+    padding-top:1.5rem;
+    border-top:1px solid var(--rule);
+    color:var(--ink-soft);
+    font-size:.9rem;
+  }
+  strong{ color:var(--ink); }
+</style>
+</head>
+<body>
+<main>
+
+  <h1>Clearday Support</h1>
+  <p class="meta">Clearday: Sobriety Counter &middot; iOS</p>
+
+  <p class="lede">Clearday is a counter for stepping away from something &mdash; alcohol, nicotine,
+  cannabis, gambling, sugar, social media, or anything else you name. This page is where to get
+  help with it.</p>
+
+  <div class="callout">
+    <h2 id="contact">Contact</h2>
+    <p>Email <a href="mailto:williamscott701@gmail.com">williamscott701@gmail.com</a>. Clearday is
+    made by one person, so replies take as long as they take &mdash; but every message is read.</p>
+    <p>It helps to include your iOS version and what you were doing when something went wrong.
+    Please don't send anything from your journal you'd rather keep private; it is never needed to
+    diagnose a problem.</p>
+  </div>
+
+  <h2 id="account">Do I need an account?</h2>
+  <p>No. Clearday has no sign-up, no login, and no server. Everything you enter stays on your
+  device. That also means there is no password to reset and no account for us to look up &mdash; if
+  something is wrong, the answer is always on your phone, not on our end.</p>
+
+  <h2 id="data">Where is my data, and how do I get it out?</h2>
+  <p>On your device, and nowhere else. Clearday contains no networking code at all.</p>
+  <p>Clearday+ subscribers can export the full history &mdash; every habit, streak, and journal
+  entry &mdash; as a plain file from Settings, and do whatever they like with it.</p>
+  <p>To erase everything, delete the app. Because nothing is stored off-device, deleting the app
+  deletes the data with it. There is no copy left behind for us to remove, and no way for us to
+  recover it afterwards, so export first if you want to keep it.</p>
+
+  <h2 id="restart">I started again. Did I lose my streak?</h2>
+  <p>No &mdash; that's the one thing Clearday is built not to do. Starting again files your previous
+  run into your history and begins a new count. The old streak is never deleted, still appears in
+  your history, and still counts toward your longest run.</p>
+
+  <h2 id="widgets">My widget isn't updating</h2>
+  <p>Widgets refresh on a schedule iOS controls, so a small delay is normal. If a widget is stuck
+  or shows no count at all, remove it from the Home Screen or Lock Screen and add it again. Opening
+  the app once afterwards gives it fresh data to read.</p>
+
+  <h2 id="subscription">Clearday+, trials, and cancelling</h2>
+  <p>Clearday is free forever for one habit, including the counter, the small Home Screen widget,
+  and the Lock Screen count. Clearday+ is an optional annual subscription that adds unlimited
+  habits, the complete journal, every widget size, and data export.</p>
+  <p>Subscriptions are billed through your Apple Account and renew automatically unless auto-renew
+  is switched off at least 24 hours before the period ends. You can manage or cancel at any time,
+  including during a free trial, in <strong>Settings &rarr; your name &rarr; Subscriptions</strong>
+  on your device. Cancelling is handled entirely by Apple &mdash; we can't do it for you, and we
+  never see your payment details.</p>
+  <p>Already subscribed but the app doesn't know it &mdash; on a new phone, for instance? Tap
+  <strong>Restore</strong> on the Clearday+ screen.</p>
+  <p>Refunds are handled by Apple, not by us, at
+  <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>.</p>
+
+  <h2 id="health">About the milestone timelines</h2>
+  <p>Clearday shows general, published information about what tends to happen after stopping
+  drinking or smoking. It is general information, it varies from person to person, and it is
+  <strong>not medical advice</strong>. Clearday is a counter, not a medical device and not a crisis
+  service. If something about your health concerns you, please talk to a doctor. If you or someone
+  you know may be in danger, contact local emergency services right away.</p>
+
+  <h2 id="legal">Privacy</h2>
+  <p><a href="privacy.html">Privacy Policy</a></p>
+
+  <footer>
+    <p>Clearday &middot; William Scott<br>
+    <a href="mailto:williamscott701@gmail.com">williamscott701@gmail.com</a></p>
+  </footer>
+
+</main>
+</body>
+</html>
